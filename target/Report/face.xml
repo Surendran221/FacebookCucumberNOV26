@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.425921">
+<testcase classname="validate the login functionality of facebook page" name="validate the login valid username and invalid password" time="13.425921">
+<failure message="java.lang.AssertionError: check the credentials&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.StepDefinition.LoginStepDefinition.user_should_navigate_to_incorrect_credential_page(LoginStepDefinition.java:48)&#13;&#10;&#9;at ✽.user should navigate to incorrect credential page(file:src/test/resources/FeatureFiles/Login.feature:25)&#13;&#10;"><![CDATA[When user should input valid username and invaliD password..................passed
+And user should print the title of page.....................................passed
+And user should click the login button......................................passed
+And user should print current url of my page................................passed
+Then user should navigate to incorrect credential page......................failed
+
+StackTrace:
+java.lang.AssertionError: check the credentials
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.StepDefinition.LoginStepDefinition.user_should_navigate_to_incorrect_credential_page(LoginStepDefinition.java:48)
+	at ✽.user should navigate to incorrect credential page(file:src/test/resources/FeatureFiles/Login.feature:25)
+]]></failure>
+</testcase>
+</testsuite>
