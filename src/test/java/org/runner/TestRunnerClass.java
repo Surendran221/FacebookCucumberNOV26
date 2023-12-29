@@ -15,7 +15,7 @@ snippets=SnippetType.CAMELCASE,plugin= {"html:target\\Report",
 		"json:target\\Report\\login.json",
 		"rerun:src\\test\\resources\\ReRun\\failed.txt"})
 public class TestRunnerClass  extends JVMReport{
-@AfterClass
+@AfterClass      
 public static void smartskill() {
 	generateJvmReport(System.getProperty("user.dir")+"\\target\\Report\\login.json");	  
 }

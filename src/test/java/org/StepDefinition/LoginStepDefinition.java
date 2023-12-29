@@ -58,8 +58,8 @@ public class LoginStepDefinition extends BaseClass{
 		 LogPojo l = new LogPojo();
 		    WebElement txtuser = l.getTxtuser();
 		    WebElement txtpass = l.getTxtpass();
-		    fill(txtuser, "arunkumar");
-		    fill(txtpass, "arun890()");
+		    fill(txtuser, "arun");
+		    fill(txtpass, "arun890");
 	}
 	@When("user should input invalid username {string}and valid password{string}")
 	public void userShouldInputInvalidUsernameAndValidPassword(String s1, String s2) {
